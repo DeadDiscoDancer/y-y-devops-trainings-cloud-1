@@ -2,6 +2,7 @@ version: '3.7'
 services:
   catgpt:
     container_name: catgpt
-    image: "cr.yandex/<INSERT_YOUR_IMAGE_TAG_HERE>"
+    image: "cr.yandex/crpmf7a7l9p0ep6tpcf5/hewki-devops:2"
     restart: always
     network_mode: "host"
+
